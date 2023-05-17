@@ -1,0 +1,73 @@
+.text-cente{ margin-top: 80px;
+ font-size: 18px;
+ font-weight:
+700;text-align: center;}
+
+.mb-5{margin-top: 80px;font-size: 18px;
+ font-weight:
+700,}
+
+th {
+  text-align: center;
+}
+.tong h6{font-size: 18px;
+ font-weight:
+700; display: flex; 
+}
+.tong h6 span{ margin-left: 10px;}
+.cart__img-box {
+  width: 100px;
+}
+
+.th{text-align: center;}
+table,.th,.tr, .text-center,.tbody{
+    border:1px solid rgb(0, 0, 0);
+}
+
+.cart__img-box img {
+  width: 100%;
+}
+
+.cart__item-del i {
+  cursor: pointer;
+}
+
+.cart__page-btn {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 2rem 0;
+}
+
+.cart__page-btn button a:hover {
+  color: #ffffff;
+  background-color:#049a54;
+}
+
+.cart__subtotal {
+  color: #df2020;
+  font-size: 18;
+}
+
+.addTOCart__btn {
+
+    background-color: var(--bg-color, var(--emerald));
+    color: var(--color, var(--white));
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: max-content;
+    font-size: var(--fs, var(--fs-7));
+    font-weight: var(--fw, var(--fw-500));
+    padding: var(--padding, 15px 20px);
+    border-radius: 50px;
+    transition: var(--transition-2);
+    margin-top: 10px;
+    border: #049a54;
+}
+.addTOCart__btn:hover{  background:#049a54;}
+@media only screen and (max-width: 768px) {
+  th,
+  td {
+    font-size: 0.8rem;
+  }
+}

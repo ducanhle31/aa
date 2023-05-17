@@ -1,0 +1,27 @@
+.blogdetails{
+    margin-top: 60px; 
+}
+.blogdetails .w-100{
+    width: 60%;
+}
+.headingbl{
+    margin-bottom: 30px;
+}
+.card-wrapperr{
+    margin-top: 20px;
+    display: flex;
+}
+.wrapperr-item{
+    display: flex;
+    padding-right:30px ;
+    margin-bottom: 20px;
+}
+.hreff li { color: rgb(0, 0, 0);
+    display: flex;
+    padding-bottom: 15px;
+}
+.hreff li:hover{
+    color: #049a54
+
+;
+}

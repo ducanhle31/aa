@@ -1,0 +1,91 @@
+.checkoutMessage {
+  width: fit-content;
+  margin: 1rem auto;
+}
+.mb-4 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 21.6px;
+}
+.checkoutp {
+  margin-bottom: 80px;
+}
+.checkoutIcon {
+  width: 2rem;
+  color: #4bb543;
+  height: 2rem;
+}
+.form__group input {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 21.6px;
+}
+.checkoutTitleContainer {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .checkoutMessage {
+    margin: 1rem 1rem;
+  }
+  
+.form__group input {
+ color: black;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 21.6px;
+}
+.form__group input placeholder{
+ color: black;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 21.6px;
+}
+
+}
+.checkout__bill {
+  background: #f1f7ee;
+  padding: 30px;
+}
+
+.checkout__total {
+  border-top: 1px solid #ddd;
+  padding-top: 30px;
+}
+.checkout__total h5 {
+  font-size: 18px;
+}
+.checkout__total h5 span {
+  color: red;
+}
+.checkout__bill h6 {
+  font-size: 18px;
+}
+.checkout__bill h6 span {
+  color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  .checkout__bill h6 {
+    font-size: 18px;
+  }
+  .checkout__bill {
+    margin-top: 40px;
+  }
+  
+.form__group input {
+ color: black;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 21.6px;
+}
+}

@@ -1,0 +1,26 @@
+
+
+
+/*-----------------------------------*\
+  #BACK TO TOP
+\*-----------------------------------*/
+
+.back-to-top {
+  border: 5px solid #05c26a;
+  position: fixed;
+  bottom: 70px;
+  right: 60px;
+  background-color: #e5e5e39a;
+  padding: 6px;
+  border-radius: 50%;
+  z-index: 9999;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+   transition: background-color 0.2s, color 0.2s;
+}
+.back-to-top:hover {
+  border: 5px solid #038045;
+  background-color: white;
+}
