@@ -60,7 +60,7 @@ const cartSlice = createSlice({
           return {
             ...item,
             quantity:
-              item.quantity =0  && item.quantity -1,
+              item.quantity >0  && item.quantity -1,
           };
         }
         return item;
